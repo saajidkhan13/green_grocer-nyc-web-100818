@@ -47,7 +47,6 @@ def apply_clearance(cart)
     end
   end
 end
-end
 
 def checkout(cart, coupons)
   # code here
