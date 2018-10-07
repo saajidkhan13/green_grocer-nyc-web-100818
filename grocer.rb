@@ -1,6 +1,6 @@
 require 'pry'
 
-def consolidate_cart  
+def consolidate_cart(cart)  
   new_cart = {}
   cart.each do |x|
     x.each do |item, hash|
